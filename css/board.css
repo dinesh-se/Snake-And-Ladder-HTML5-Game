@@ -1,0 +1,30 @@
+.box {
+	position: relative;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	border: 1px solid #000;
+	vertical-align: top;
+}
+.player {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border-radius: 50px;
+}
+.one {
+	background: #996666;
+}
+.two {
+	background: #006666;
+}
+.snake {
+	background: #FF0033;
+}
+.ladder {
+	background: #33CC33;
+}
+.little-text {
+	color: #fff;
+	font-size: 12px;
+}

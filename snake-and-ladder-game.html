@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Snake and Ladder Game</title>
+		<link rel="stylesheet" type="text/css" href="css/board.css">
+	</head>
+	<body>
+		<div id="boardContainer"></div>
+		<div class="player-holder">
+			<div>
+				<span>Player 1:</span>
+				<span class="player one"></span>
+				<button onclick="move(0)" id='play0'>Play</button>
+			</div>
+			<div>
+				<span>Player 2:</span>
+				<span class="player two"></span>
+				<button onclick="move(1)" id='play1' disabled>Play</button>
+			</div>
+		</div>
+		<div class='button-holder'>
+			<button onclick='reset()'>Reset</button>
+		</div>
+		<script type="text/javascript" src="js/board.js"></script>
+	</body>
+</html>
